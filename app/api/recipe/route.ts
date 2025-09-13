@@ -123,7 +123,7 @@ export async function POST(req: NextRequest) {
 
     const defaultModel =
       process.env.FIREWORKS_MODEL ??
-      "accounts/fireworks/models/llama-v3p1-8b-instruct";
+      "accounts/sentientfoundation/models/dobby-unhinged-llama-3-3-70b-new";
     const model = modelId || defaultModel; // 👈 override per-request if provided
 
     const fwRes = await fwFetchWithRetry(
@@ -238,3 +238,4 @@ export async function POST(req: NextRequest) {
     );
   }
 }
+
