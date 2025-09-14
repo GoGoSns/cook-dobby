@@ -1,6 +1,6 @@
 If you want to find your recipe today.
-
-[Cook Now](https://www.dobbycook.xyz/)
+Click The link Now
+## [Cook Now](https://www.dobbycook.xyz/)
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
